@@ -18,4 +18,8 @@ def compute_bill(food):
       total += prices[i]
       stock[i] -= 1
   return total
+
+
+example = ["banana", "orange"]
+print compute_bill(example)
     
