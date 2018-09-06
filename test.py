@@ -1,11 +1,12 @@
-test = 0
-
-print test 
-
-def changeTest(test):
-  test += 1
-  return test
+def purify(numbers):
+  new_list = []
+  for i in range(len(numbers)):
+    if numbers[i] % 2 == 0:
+      new_list.append(numbers[i])
 
 
-test = changeTest(test)
-print test
+  for num in new_list:
+    print num
+
+
+purify([1,2,3,4,5,6])
