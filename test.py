@@ -1,12 +1,11 @@
-def purify(numbers):
-  new_list = []
-  for i in range(len(numbers)):
-    if numbers[i] % 2 == 0:
-      new_list.append(numbers[i])
 
 
-  for num in new_list:
-    print num
+
+def changeValue(ex):
+
+  ex[0] = 3
 
 
-purify([1,2,3,4,5,6])
+exList = [1,2,3,4,5]
+changeValue(exList)
+print exList
